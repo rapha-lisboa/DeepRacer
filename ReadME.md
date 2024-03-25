@@ -4,7 +4,7 @@ Esse repositório refere-se à função de recompensa do AWS DeepRacer, um módu
 
 # Função de Recompensa
 
-Desenvolvida pela linguagem python, a função de recompensa que se encontra [aqui](src\reward_function.py) se baseia em 3 estratégias que juntas foram escolhidas para o treinamento do modelo, são elas: 'Progresso ao longo do tempo', 'Distância do centro', 'Saiu da pista'. Para implementá-las, foram utilizado os seguintes parâmetros.
+Desenvolvida pela linguagem python, a função de recompensa que se encontra [aqui](./src/reward_function.py) se baseia em 3 estratégias que juntas foram escolhidas para o treinamento do modelo, são elas: 'Progresso ao longo do tempo', 'Distância do centro', 'Saiu da pista'. Para implementá-las, foram utilizado os seguintes parâmetros.
 
 ## Progresso ao longo do tempo
 - **Track Length**: Representa o comprimento total da pista. É utilizada para a definição do número máximo de steps, dessa forma podemos definir uma velocidade esperada, dado que estamos "apressando" que o agente termine a volta.
